@@ -1,10 +1,11 @@
 [package]
-name = "echo"
-version = "1.0.1"
+name = "echo-oxide"
+version = "1.0.2"
 edition = "2024"
 description = "A command-line tool for echoing out arguments. This is the rust edition."
 license = "MITNFA"
-repository = "https://github.com/reactive-firewall"
+repository = "https://github.com/reactive-firewall/echo-oxide"
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
