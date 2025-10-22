@@ -2,6 +2,9 @@
 name = "echo"
 version = "1.0.1"
 edition = "2024"
+description = "A command-line tool for echoing out arguments. This is the rust edition."
+license = "MITNFA"
+repository = "https://github.com/reactive-firewall"
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
