@@ -1,6 +1,6 @@
 use clap::{Parser};
-use echo-oxide::Args;
-use echo-oxide::echo_cmd;
+use echo::Args;
+use echo::echo_cmd;
 
 fn main() {
 	let args = Args::parse();

@@ -1,5 +1,5 @@
 [package]
-name = "echo-oxide"
+name = "echo"
 version = "1.0.2"
 edition = "2024"
 description = "A command-line tool for echoing out arguments. This is the rust edition."

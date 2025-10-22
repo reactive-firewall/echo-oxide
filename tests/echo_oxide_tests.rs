@@ -1,6 +1,6 @@
-use echo-oxide::Args;
-use echo-oxide::handle_escape_codes; // Replace with your actual crate name
-use echo-oxide::parse_handle_escape;
+use echo::Args;
+use echo::handle_escape_codes; // Replace with your actual crate name
+use echo::parse_handle_escape;
 
 #[test]
 fn test_escape_codes() {
